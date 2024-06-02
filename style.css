@@ -52,10 +52,14 @@ main {
 .intro {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 52px;
     justify-content: center;
     align-items: center;
     padding: 60px 0;
+}
+
+.intro h1 {
+    font-size: 43px;
 }
 
 .head {
@@ -119,7 +123,7 @@ main {
     grid-template-columns: 100%;
     gap: 75px;
     justify-content: center;
-    margin: 60px 0;
+    margin: 45px 0;
     align-items: center;
     text-align: center;
 }
@@ -147,6 +151,10 @@ main {
 .box,
 .one {
     padding: 0 70px;
+}
+
+.two {
+    margin-bottom: 0;
 }
 
 .three {
@@ -187,11 +195,11 @@ main {
     justify-content: center;
     align-items: center;
     gap: 55px;
-    margin: 60px 0;
+    margin: 45px 0;
 }
 
 .five {
-    margin: 70px 0 100px;
+    margin: 45px 0 50px;
 }
 
 /* footer */
