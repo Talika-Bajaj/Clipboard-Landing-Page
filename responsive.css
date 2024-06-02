@@ -1,0 +1,89 @@
+@media screen and (width>=650px) {
+
+    /* main */
+    main {
+        background: url(images/bg-header-desktop.png) no-repeat;
+    }
+
+    .p1 {
+        width: 590px;
+    }
+
+    .p2 {
+        width: 610px;
+    }
+
+    .buttons {
+        flex-direction: row;
+    }
+
+    .logos {
+        flex-direction: row;
+        gap: 65px;
+        flex-wrap: wrap;
+    }
+
+    /* footer */
+    .footer {
+        grid-template-columns: 100px 400px;
+        gap: 100px;
+
+    }
+
+    .foot {
+        grid-template-columns: 50% 50%;
+        text-align: left;
+        gap: 25px 30px;
+    }
+}
+
+@media screen and (width>=850px) {
+
+    /* main */
+    .columns {
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        padding: 0;
+    }
+
+    #computer {
+        width: auto;
+        height: auto;
+    }
+
+    /* footer */
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .foot {
+        gap: 27px;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media screen and (width>=1150px) {
+
+    /* main */
+    .columns {
+        grid-template-columns: 360px 360px 360px;
+    }
+
+    .img img,
+    #computer {
+        width: auto;
+        height: auto;
+    }
+
+    .info {
+        gap: 90px;
+        margin-left: -148px;
+        flex-direction: row;
+    }
+
+    .data {
+        text-align: left;
+    }
+}
