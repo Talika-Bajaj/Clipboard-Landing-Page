@@ -23,10 +23,12 @@ h2,
 h3,
 h4 {
     color: var(--Dark_Grayish_Blue);
+    font-weight: 600;
 }
 
 p {
     color: var(--Grayish_Blue);
+    font-size: 18px;
 }
 
 /* main */
@@ -38,9 +40,10 @@ main {
 
 /* container */
 .container {
-    padding: 55px;
+    padding: 70px 0;
     display: grid;
-    gap: 50px;
+    grid-template-columns: 100%;
+    gap: 60px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -61,8 +64,8 @@ main {
     gap: 15px;
 }
 
-.intro h1 {
-    font-size: 36px;
+.head h1 {
+    font-size: 40px;
 }
 
 .head p {
@@ -114,16 +117,16 @@ main {
 .card {
     display: grid;
     grid-template-columns: 100%;
-    gap: 55px;
+    gap: 75px;
     justify-content: center;
-    margin: 50px 0;
+    margin: 60px 0;
     align-items: center;
     text-align: center;
 }
 
 .info {
     display: flex;
-    gap: 55px;
+    gap: 65px;
     flex-direction: column;
     align-items: center;
 }
@@ -138,15 +141,19 @@ main {
 
 .sub-data {
     line-height: 1.8;
-    width: 335px;
+    width: 365px;
 }
 
-.two {
-    margin-bottom: 0;
+.box,
+.one {
+    padding: 0 70px;
 }
 
 .three {
     margin-top: 0;
+    /* width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img,
@@ -180,12 +187,16 @@ main {
     justify-content: center;
     align-items: center;
     gap: 55px;
-    margin: 50px 0;
+    margin: 60px 0;
+}
+
+.five {
+    margin: 70px 0 100px;
 }
 
 /* footer */
 footer {
-    background-color: #eee;
+    background-color: #f8f8f8;
     padding: 55px;
     font-weight: 500;
     display: flex;
@@ -204,7 +215,7 @@ footer p {
     grid-template-columns: 100%;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 25px;
 }
 
@@ -212,11 +223,20 @@ footer p {
     display: grid;
     grid-template-columns: 100%;
     gap: 25px;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s ease-in;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
 }
 
 footer p:hover {
