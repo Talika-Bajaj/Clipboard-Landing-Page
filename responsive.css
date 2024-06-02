@@ -3,6 +3,7 @@
     /* main */
     main {
         background: url(images/bg-header-desktop.png) no-repeat;
+        background-size: contain;
     }
 
     .p1 {
